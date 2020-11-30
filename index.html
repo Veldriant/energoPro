@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.php">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" href="css.css">
+  <title>Document</title>
+</head>
+<body>
+  <section class="main">
+    <section class="menu">
+      <div class="logo">
+      <img src="logo.png" alt="">
+      </div>
+      </div>
+      <nav>
+        <a href="email:info@compressorua.com wow slideInLeft">info@compressorua.com</a>
+        <a href="tel:050 345 4030"> <i class="fa fa-phone"></i>050 345 4030</a>
+        <a href="tel:067 535 4030"><i class="fa fa-phone"></i>067 535 4030</a>
+      </nav>
+    </section>
+  <div class="container">
+  <section class="container__filter">
+    <div class="filter__title"><p><p id="bluText">Безошибочный</p> подбор фильтров к компрессорам</p></div>
+    <div class="filter__img"><img src="filter.png" ></div>
+    <div class="filter__info">
+      <p>3 варианта на любой бюджет!</p>
+      <p>Всего за 15 минут!</p>
+      <p>С консультацией сервис-инженера!</p>
+    </div>
+  </section>
+
+  <form id="feedback-form" enctype="multipart/form-data" method="post">
+    <p>Подобрать фильтр</p>
+    <div class="form-group control-file">
+       <i class="fa fa-camera"></i>
+      <input id="fileFF"class="custom-file-input"  name="fileFF" type="file" >
+    </div>
+    <div class="form-group">
+      <i class="fa fa-cogs"></i>
+      <input id="nameFF" name="nameFF" type="text" placeholder="Код фильтра" required>
+
+
+      <i class="fa fa-user"></i>
+      <input id="contactFF" name="contactFF" type="email" placeholder="Ваше имя" required>
+
+
+    <i class="fa fa-phone"></i>
+      <input id="projectFF" name="projectFF" type="text" placeholder="Телефон для связи" required>
+    </div>
+    <button class="btn" type="submit" id="submitFF">Send</button>
+  </form>
+</div>
+  </section>
+
+<section class="blockDoc">
+  <div class="container">
+    <div class="blockSlider">
+      <div class="sliderInfo">
+        <p class="sliderTitle">нам доверяют тысячи  украинскиих предприятий</p>
+        <p class="sliderSubTitle">90% в наличии на складе</p>
+      </div>
+    <div class="wrapper">
+        <div class="slider">
+          <div class="slider__item filter" >
+            <a href="doc.jpg" data-fancybox="gallery">
+       <img src = "doc.jpg" height="500px" alt ="picture 1">
+            </a>
+          </div>
+          <div class="slider__item">
+            <a href="doc.jpg" data-fancybox="gallery">
+       <img src = "doc.jpg"height="500px"alt ="picture 1">
+            </a>
+          </div>
+          <div class="slider__item">
+            <a href="doc.jpg" data-fancybox="gallery">
+       <img src = "doc.jpg"height="500px"alt ="picture 1">
+            </a>
+          </div>
+          <div class="slider__item ">
+            <a href="doc.jpg" data-fancybox="gallery">
+       <img src = "doc.jpg"height="500px" alt ="picture 1">
+            </a>
+          </div>
+          <div class="slider__item ">
+            <a href="doc.jpg" data-fancybox="gallery">
+       <img src = "doc.jpg"height="500px" alt ="picture 1">
+            </a>
+          </div>
+        </div>
+
+  </div>
+    </div>
+
+</section>
+
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/script.js"></script>
+<script src="js.js"></script>
+
+
+<script>
+new WOW().init();
+</script>
+<script type="text/javascript">
+$(document).ready(function() {
+$("a.gallery").fancybox();
+});
+</script>
+</body>
+</html>

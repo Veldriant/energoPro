@@ -1,0 +1,262 @@
+body {
+    margin-top: -16px;
+    line-height: 1;
+}
+
+.main{
+  background-image: url(bg.jpg);
+  height: 100%;
+  width: 100%;
+}
+input {
+    width: 245px;
+    text-align: center;
+    height: 36px;
+    background-color: #f5f5f5;
+}
+input::-webkit-input-placeholder {   color: #d6d8da;}
+input::-moz-placeholder {   color: #d6d8da; }
+a{
+  text-decoration: none;
+  color: #fff;
+  margin: 10px;
+  font-size: 18px;
+}
+.menu{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 150px;
+  margin-top: 15px;
+}
+nav{
+  margin-top:25px;
+}
+nav i.fa{
+  margin-right: 0;
+}
+.container{
+  width: 1257px;
+  margin: auto;
+  display: flex;
+}
+.container__filter{
+}
+.filter__img{
+  width: 500px;
+}
+.filter__info{
+  float: right;
+  color: #60666c;
+  margin-top: -450px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.filter__info p{
+  width: auto;
+  margin: 5px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+i.fa {
+  width: 26px;
+  height: 26px;
+  line-height: 26px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+.filter__title{
+  color: #fff;
+  text-transform: uppercase;
+  width: 763px;
+  font-size: 75px;
+  font-weight: 600;
+
+}
+.faMenu{
+  margin-left: -20px;
+}
+form#feedback-form {
+    margin-left: 187px;
+    height: 400px;
+    background-color: #ffffff;
+    padding: 18px;
+    width: 320px;
+    border-radius: 5px;
+}
+.form-group {
+    margin-top: 27px;
+}
+#bluText{
+  color:#5f8cc7;
+}
+.control-file{
+  height: 40px;
+}
+.custom-file-input::-webkit-file-upload-button {
+ visibility: hidden;
+ width: 420px;
+}
+.custom-file-input::before {
+  color: #d6d8da;
+ content: 'Фото компрессора';
+background-color: #f5f5f5;
+ border-radius: 3px;
+ padding-top: 15px;
+ outline: none;
+ white-space: nowrap;
+ cursor: pointer;
+ font-weight: 700;
+ margin-bottom: -10px;
+}
+.custom-file-input:hover::before {
+ border-color: black;
+}
+input#fileFF {
+    height: 32px;
+    width: 185px;
+    margin-top: 22px;
+    padding-left: 89px;
+    padding-top: 8px;
+    margin-bottom: -20px;
+}
+
+i.fa + input {
+    padding-left: 26px;
+    margin-top: 10px;
+    border: 1px solid #fff;
+}
+i.fa{
+  margin-right: -30px;
+}
+button#submitFF {
+    height: 40px;
+    width: 275px;
+    margin-left: 2px;
+    margin-top: 22px;
+    background-color: #ff9311;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 5px 25px 0px #ff9311;
+}
+.fa-camera:before {
+    content: "\f030";
+    margin-left: 24px;
+    color: #b7bcc0;
+}
+form p {
+    text-transform: uppercase;
+    margin: auto;
+    margin-top: 39px;
+    width: 257px;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: -26px;
+}
+.fa-user:before {
+    content: "\f007";
+    margin-left: 25px;
+    color: #b7bcc0;
+}
+.fa-cogs:before {
+    content: "\f085";
+        margin-left: 25px;
+        color: #b7bcc0;
+}
+form .fa-phone:before {
+    content: "\f095";
+        margin-left: 25px;
+        color: #b7bcc0;
+}
+.blockDoc{
+    background-image: url(bg-2.png);
+    width: 100%;
+}
+.blockSlider{
+  display: flex;
+  flex-direction: column;
+
+}
+.sliderInfo {
+    height: 100%;
+    display: flex;
+    margin-bottom: 116px;
+}
+.sliderTitle {
+    margin-top: 30px;
+    display: flex;
+    font-size: 50px;
+    font-weight: 700;
+    color: #22354a;
+    width: 800px;
+}
+.sliderSubTitle {
+    margin-top: 40px;
+    padding-right: 30px;
+    min-width: 0;
+    font-size: 31px;
+    width: 317px;
+    text-align: end;
+    background: #fafafa;
+    padding-top: 14px;
+}
+.slick-list {
+	overflow: hidden;
+}
+.slick-track{
+	display: flex;
+	align-items: flex-start;
+    width: 800px;
+}
+.slider {
+	position: relative;
+	padding: 0px 60px;
+  margin-bottom: 100px;
+}
+@media (max-width:767px){
+	.slider {
+		padding: 0px 40px;
+	}
+}
+.slick-list {
+    width: 1250px;
+}
+
+.slider .slick-arrow{
+	position: absolute;
+	top: 50%;
+	margin: -30px 0px 0px 0px;
+	z-index: 10;
+	font-size: 0;
+	width: 30px;
+	height: 60px;
+}
+.slider .slick-arrow.slick-prev{
+	left: 0;
+	background: url('sl-arrow_l.svg') 0 0 / 100% no-repeat;
+}
+.slider .slick-arrow.slick-next{
+	right: 0;
+	background: url('sl-arrow_r.svg') 0 0 / 100% no-repeat;
+}
+.slider .slick-arrow.slick-disabled{
+	opacity: 0.2;
+}
+.slider__item {
+	padding: 0px 15px;
+}
+.slider__item img{
+	max-width: 100%;
+}
+.slider__counter {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  z-index: 1;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #fff;
+  mix-blend-mode: difference;
+  pointer-events: none;
+}
